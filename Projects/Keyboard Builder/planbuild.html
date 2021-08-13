@@ -1,0 +1,224 @@
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Keyboard Builder</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top" id="menuNavBar">
+            <div class="collapse navbar-collapse">
+                <span><a class="navbar-brand" href="index.html">Keyboard Builder</a></span>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#login">Login</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#register">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-md bg-light navbar-light">
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="planbuild.html">Plan Build</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#tips">Building Tips</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="completed.html">Completed Builds</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="upcoming">Upcoming</a>
+                    </li>
+                </ul>
+                <a class="nav-link dropdown-toggle ml-auto" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Explore Items
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Keyboards</a>
+                    <a class="dropdown-item" href="#">Keycap Sets</a>
+                    <a class="dropdown-item" href="#">Switches</a>
+                </div>
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Plan Build</h1>
+        </div>
+    </div>
+
+<body>
+    <div class="container-fluid">
+        <div class="row" id="headerRow">
+            <div class="col">
+                <h3>Components</h3>
+            </div>
+            <div class="col">
+                <h3>Selection</h3>
+            </div>
+            <div class="col">
+                <h3>Modded?</h3>
+            </div>
+            <div class="col">
+                <h3>Price</h3>
+            </div>
+            <div class="col">
+                <h3>Retailer</h3>
+            </div>
+            <div class="col">
+                <h3>Information</h3>
+            </div>
+        </div>
+        <div class="row" id="keyboardRow">
+            <div class="col">
+                <h5>Keyboard Case</h5>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary">Select</button>
+            </div>
+            <div class="col">
+                <input type="checkbox">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="row" id="keycapRow">
+            <div class="col">
+                <h5>Keycap Set</h5>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary">Select</button>
+            </div>
+            <div class="col">
+                <input type="checkbox">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="row" id="switchesRow">
+            <div class="col">
+                <h5>Switches</h5>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary">Select</button>
+            </div>
+            <div class="col">
+                <input type="checkbox">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="row" id="plateRow">
+            <div class="col">
+                <h5>Plate</h5>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary">Select</button>
+            </div>
+            <div class="col">
+                <input type="checkbox">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="row" id="cableRow">
+            <div class="col">
+                <h5>Cable</h5>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary">Select</button>
+            </div>
+            <div class="col">
+                <input type="checkbox">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="row" id="otherRow">
+            <div class="col">
+                <h5>Other</h5>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary">Select</button>
+            </div>
+            <div class="col">
+                <input type="checkbox">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+
+        
+    </div>
+
+
+    <footer>
+
+    </footer>
+
+    <script src="sidebars.js"></script>
+  
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
